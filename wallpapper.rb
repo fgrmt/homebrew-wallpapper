@@ -1,11 +1,11 @@
 require 'formula'
 
 class Wallpapper < Formula
-  homepage 'https://github.com/mczachurski/wallpapper'
-  url 'https://github.com/mczachurski/wallpapper/archive/1.7.4.tar.gz'
-  sha256 '5d099a7b09948307ccab4aca046e90ef5456c13cb826498a5a871205adb57afd'
+  homepage 'https://github.com/fgrmt/wallpapper'
+  url 'https://github.com/fgrmt/wallpapper/archive/1.7.5.tar.gz'
+  sha256 '15ff94899e6c3824a2dceea8bfe948c5faadec6f58e8b073021ee910f929d038'
 
-  head 'https://github.com/mczachurski/wallpapper.git'
+  head 'https://github.com/fgrmt/wallpapper.git'
 
   depends_on :xcode => :build
 
