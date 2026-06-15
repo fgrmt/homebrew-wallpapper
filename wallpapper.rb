@@ -8,7 +8,6 @@ class Wallpapper < Formula
   head 'https://github.com/mczachurski/wallpapper.git'
 
   depends_on :xcode => :build
-  depends_on :macos => :mojave
 
   def install
     system 'swift', 'build', '--disable-sandbox', '--configuration', 'release'
